@@ -109,7 +109,7 @@ body {
 
 #call-btn a {
     display: block;
-    margin: 20px 20px 0 20px;
+    margin: 20px 0 0 0;
     border: 2px solid #fff;
     background-color: #f6b319;
     color: #951c49;
@@ -149,11 +149,13 @@ body {
 
 #menu-tile {
     background: url("https://www.davidchuschinabistro.com/images/menu-tile.jpg") no-repeat;
+    background-size: cover;
     background-position: center;
 }
 
 #specials-tile {
     background: url("https://www.davidchuschinabistro.com/images/specials-tile.jpg") no-repeat;
+    background-size: cover;
     background-position: center;
 }
 
@@ -369,11 +371,6 @@ hr {
 
     .nav-item i {
         font-size: 3vw;
-    }
-
-    .jumpotron {
-        box-shadow: 0 0 50px #3f0c1f;
-        border: 1px solid #3f0c1f;
     }
 
     .footer section {
